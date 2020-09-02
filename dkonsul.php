@@ -1,4 +1,4 @@
-							<ul class="navbar-nav">
+			     <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.php	">Home</a>
                                 </li>
@@ -43,34 +43,34 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link">
-										<script type="text/javascript">  
-											var CryptoJS = require( "crypto-js" ); 
-											var cryptAuth = { 
-											key: CryptoJS .enc. Utf8 .parse( 'F18AB33A57F9B229CC9C250D00FC3273' ), 
-											iv: CryptoJS .enc. Utf8 .parse( 'D959B836CD9FB162' ), 
-											encrypt: function (clear){ 
-											var cipher = CryptoJS . AES .encrypt(clear, cryptAuth.key, { 
-											iv: cryptAuth.iv, 
-											mode: CryptoJS .mode. CTR 
-											}); 
-											cipher = cipher.toString(); 
-											return cipher; 
-											}, 
-											decrypt: function (cipher) { 
-											var decipher = CryptoJS . AES .decrypt(cipher, cryptAuth.key, { 
-											iv: cryptAuth.iv, 
-											mode: CryptoJS .mode. CTR 
-											}); 
-											decipher = decipher.toString( CryptoJS .enc. Utf8 ); 
-											return decipher; 
-											} } 
-											var cipher = cryptAuth.encrypt( 'someone@email.com#Full Name' ); 
-											var chatAuth = cipher.replace( / [\/] / g , '@1@' ); 
-											var chatAuth2 = chatAuth.replace( / [ = ] / g , '@2@' ); 
-											var chatAuth3 = chatAuth2.replace( / [ + ] / g , '@3@' ); 
-											console.log( "url:" , 
-											"https://m.goapotik.com/konsultasidokter?merchantchat=4423&header=0&footer=0&services=1&fortype=2&auth="+ chatAuth3)
-										</script> 
-									</a>
+						<script type="text/javascript">  
+							var CryptoJS = require( "crypto-js" ); 
+							var cryptAuth = { 
+							key: CryptoJS .enc. Utf8 .parse( 'F18AB33A57F9B229CC9C250D00FC3273' ), 
+							iv: CryptoJS .enc. Utf8 .parse( 'D959B836CD9FB162' ), 
+							encrypt: function (clear){ 
+							var cipher = CryptoJS . AES .encrypt(clear, cryptAuth.key, { 
+							iv: cryptAuth.iv, 
+							mode: CryptoJS .mode. CTR 
+							}); 
+							cipher = cipher.toString(); 
+							return cipher; 
+							}, 
+							decrypt: function (cipher) { 
+							var decipher = CryptoJS . AES .decrypt(cipher, cryptAuth.key, { 
+							iv: cryptAuth.iv, 
+							mode: CryptoJS .mode. CTR 
+							}); 
+							decipher = decipher.toString( CryptoJS .enc. Utf8 ); 
+							return decipher; 
+							} } 
+							var cipher = cryptAuth.encrypt( 'someone@email.com#Full Name' ); 
+							var chatAuth = cipher.replace( / [\/] / g , '@1@' ); 
+							var chatAuth2 = chatAuth.replace( / [ = ] / g , '@2@' ); 
+							var chatAuth3 = chatAuth2.replace( / [ + ] / g , '@3@' ); 
+							console.log( "url:" , 
+							"https://m.goapotik.com/konsultasidokter?merchantchat=4423&header=0&footer=0&services=1&fortype=2&auth="+ chatAuth3)
+						</script> 
+					</a>
                                 </li>
                             </ul>
