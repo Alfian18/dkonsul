@@ -24,7 +24,7 @@
                                         <a class="dropdown-item" href="umum.php">Fasilitas Umum</a>
                                         <a class="dropdown-item" href="laktasi.php">Klinik Laktasi</a>
                                     </div>
-                                </li>
+                                </li> 
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle"id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Informasi
